@@ -1,0 +1,114 @@
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe.config
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.dll
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll.config
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll.config
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.xml
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.AssemblyReference.cache
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.DangNhap.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDaoDien.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDienVien.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLTheLoai.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLPhim.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.ThongTinPhim.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.TrangChu.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.Properties.Resources.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.GenerateResource.cache
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.CoreCompileInputs.cache
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.Up2Date
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.exe
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.DangKi.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.ThongKe.resources
+C:\Users\manhh\source\repos\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.HangPhim.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe.config
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.pdb
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.dll
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.dll
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.pdb
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll.config
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.pdb
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll.config
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.xml
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.xml
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.AssemblyReference.cache
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.DangKi.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.DangNhap.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.HangPhim.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDaoDien.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDienVien.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLTheLoai.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLPhim.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.ThongKe.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.ThongTinPhim.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.TrangChu.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.Properties.Resources.resources
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.GenerateResource.cache
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.CoreCompileInputs.cache
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.Up2Date
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.exe
+D:\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe.config
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll.config
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll.config
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.xml
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.xml
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.AssemblyReference.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.HangPhim.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDaoDien.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDienVien.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLTheLoai.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLPhim.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.ThongTinPhim.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.TrangChu.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.Properties.Resources.resources
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.GenerateResource.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.CoreCompileInputs.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.Up2Date
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.exe
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe.config
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.exe
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\QuanLyPhim.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\BUS.dll.config
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\DAL.dll.config
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.xml
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.AssemblyReference.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.HangPhim.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDaoDien.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLDienVien.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLTheLoai.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.QLPhim.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.ThongTinPhim.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.TrangChu.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.Properties.Resources.resources
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.GenerateResource.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.CoreCompileInputs.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.csproj.Up2Date
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.exe
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\QuanLyPhim\obj\Debug\QuanLyPhim.pdb
