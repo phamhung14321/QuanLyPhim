@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\thongtinphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\thongtinphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|c:\\dataset\\quanlyphim (3) (1)\\quanlyphim (3)\\quanlyphim\\quanlyphim\\quanlyphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\qlphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\hangphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\hangphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\qltheloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\qltheloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\thongtinphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\thongtinphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\qldaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\qldaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\qldienvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\qldienvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0F1490-232E-4D47-9B1E-D1E3E4C19E44}|DAL\\DAL.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\dal\\entities\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0F1490-232E-4D47-9B1E-D1E3E4C19E44}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\qltheloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\qltheloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\bus\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|solutionrelative:bus\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\bus\\studioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|solutionrelative:bus\\studioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\bus\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|solutionrelative:bus\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0F1490-232E-4D47-9B1E-D1E3E4C19E44}|DAL\\DAL.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\dal\\entities\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0F1490-232E-4D47-9B1E-D1E3E4C19E44}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0F1490-232E-4D47-9B1E-D1E3E4C19E44}|DAL\\DAL.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2C0F1490-232E-4D47-9B1E-D1E3E4C19E44}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\bus\\directorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6606AF89-749B-4754-9221-FED219B241A3}|BUS\\BUS.csproj|solutionrelative:bus\\directorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\quanlyphim\\hangphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22F8ADB-124F-4EF8-B9C5-E54922743481}|QuanLyPhim\\QuanLyPhim.csproj|solutionrelative:quanlyphim\\hangphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 343,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 57,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\Program.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\Program.cs",
+              "RelativeToolTip": "QuanLyPhim\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:03:17.283Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HangPhim.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\HangPhim.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\HangPhim.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\HangPhim.cs",
+              "RelativeToolTip": "QuanLyPhim\\HangPhim.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAMwFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T06:37:20.611Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLPhim.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLPhim.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\QLPhim.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLPhim.cs",
+              "RelativeToolTip": "QuanLyPhim\\QLPhim.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAhwGMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:29:27.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Movies.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\DAL\\Entities\\Movies.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Movies.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\DAL\\Entities\\Movies.cs",
+              "RelativeToolTip": "DAL\\Entities\\Movies.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:16:05.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QLTheLoai.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLTheLoai.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\QLTheLoai.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLTheLoai.cs",
+              "RelativeToolTip": "QuanLyPhim\\QLTheLoai.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswEcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T13:49:04.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThongTinPhim.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\ThongTinPhim.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\ThongTinPhim.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\ThongTinPhim.cs [Design]",
+              "RelativeToolTip": "QuanLyPhim\\ThongTinPhim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:01:22.718Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\DAL\\Entities\\MovieContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\MovieContext.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\DAL\\Entities\\MovieContext.cs",
+              "RelativeToolTip": "DAL\\Entities\\MovieContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T12:34:59.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DirectorService.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\DirectorService.cs",
+              "RelativeDocumentMoniker": "BUS\\DirectorService.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\DirectorService.cs",
+              "RelativeToolTip": "BUS\\DirectorService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:21:22.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\TrangChu.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\TrangChu.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\TrangChu.cs*",
+              "RelativeToolTip": "QuanLyPhim\\TrangChu.cs*",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:20:18.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenreService.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\GenreService.cs",
+              "RelativeDocumentMoniker": "BUS\\GenreService.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\GenreService.cs",
+              "RelativeToolTip": "BUS\\GenreService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:19:07.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\App.config",
+              "RelativeDocumentMoniker": "QuanLyPhim\\App.config",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\App.config",
+              "RelativeToolTip": "QuanLyPhim\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-02T09:16:59.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\App.config",
+              "RelativeDocumentMoniker": "BUS\\App.config",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\App.config",
+              "RelativeToolTip": "BUS\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-02T07:19:03.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudioService.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\StudioService.cs",
+              "RelativeDocumentMoniker": "BUS\\StudioService.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\StudioService.cs",
+              "RelativeToolTip": "BUS\\StudioService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T06:41:35.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QLDienVien.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLDienVien.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\QLDienVien.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLDienVien.cs [Design]",
+              "RelativeToolTip": "QuanLyPhim\\QLDienVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:08:21.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HangPhim.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\HangPhim.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\HangPhim.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\HangPhim.cs [Design]",
+              "RelativeToolTip": "QuanLyPhim\\HangPhim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:01:39.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\DAL\\App.config",
+              "RelativeDocumentMoniker": "DAL\\App.config",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\DAL\\App.config",
+              "RelativeToolTip": "DAL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-02T07:58:37.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLPhim.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLPhim.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\QLPhim.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLPhim.cs [Design]",
+              "RelativeToolTip": "QuanLyPhim\\QLPhim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:54:16.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\TrangChu.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\TrangChu.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\TrangChu.cs [Design]*",
+              "RelativeToolTip": "QuanLyPhim\\TrangChu.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:02:07.076Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QLTheLoai.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLTheLoai.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\QLTheLoai.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLTheLoai.cs [Design]",
+              "RelativeToolTip": "QuanLyPhim\\QLTheLoai.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:01:20.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QLDaoDien.cs [Design]",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLDaoDien.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\QLDaoDien.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\QLDaoDien.cs [Design]",
+              "RelativeToolTip": "QuanLyPhim\\QLDaoDien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:01:57.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThongTinPhim.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\ThongTinPhim.cs",
+              "RelativeDocumentMoniker": "QuanLyPhim\\ThongTinPhim.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\QuanLyPhim\\ThongTinPhim.cs",
+              "RelativeToolTip": "QuanLyPhim\\ThongTinPhim.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA6wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:25:09.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\MovieService.cs",
+              "RelativeDocumentMoniker": "BUS\\MovieService.cs",
+              "ToolTip": "C:\\Dataset\\QuanLyPhim (3) (1)\\QuanLyPhim (3)\\QuanLyPhim\\QuanLyPhim\\BUS\\MovieService.cs",
+              "RelativeToolTip": "BUS\\MovieService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwv0cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:03:59.46Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

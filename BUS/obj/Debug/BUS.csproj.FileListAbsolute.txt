@@ -1,0 +1,60 @@
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\BUS.dll.config
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\BUS.dll
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\BUS.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\DAL.dll
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\EntityFramework.dll
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\DAL.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\DAL.dll.config
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\EntityFramework.xml
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\obj\Debug\BUS.dll
+C:\Users\manhh\source\repos\QuanLyPhim\BUS\obj\Debug\BUS.pdb
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.dll.config
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.dll
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.pdb
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.dll
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.dll
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.pdb
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.dll.config
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.xml
+D:\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.dll
+D:\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.dll.config
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.dll.config
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.xml
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.dll.config
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\BUS.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\DAL.dll.config
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.xml
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\BUS\obj\Debug\BUS.pdb

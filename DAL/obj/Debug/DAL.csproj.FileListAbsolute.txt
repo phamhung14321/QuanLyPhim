@@ -1,0 +1,48 @@
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\DAL.dll.config
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\DAL.dll
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\DAL.pdb
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\EntityFramework.dll
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\EntityFramework.xml
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\obj\Debug\DAL.dll
+C:\Users\manhh\source\repos\QuanLyPhim\DAL\obj\Debug\DAL.pdb
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.dll.config
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.dll
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.pdb
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.dll
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.xml
+D:\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.dll
+D:\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.dll.config
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.pdb
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.xml
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.dll
+C:\Test\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.dll.config
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\DAL.pdb
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.xml
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.dll
+C:\Dataset\QuanLyPhim (3) (1)\QuanLyPhim (3)\QuanLyPhim\QuanLyPhim\DAL\obj\Debug\DAL.pdb
