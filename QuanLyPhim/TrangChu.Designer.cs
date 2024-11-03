@@ -41,8 +41,8 @@
             this.cmbTheLoai = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmbNamRaMat = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachPhim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPoster)).BeginInit();
@@ -120,9 +120,9 @@
             // 
             // pbPoster
             // 
-            this.pbPoster.Location = new System.Drawing.Point(260, 210);
+            this.pbPoster.Location = new System.Drawing.Point(215, 210);
             this.pbPoster.Name = "pbPoster";
-            this.pbPoster.Size = new System.Drawing.Size(307, 351);
+            this.pbPoster.Size = new System.Drawing.Size(367, 435);
             this.pbPoster.TabIndex = 2;
             this.pbPoster.TabStop = false;
             // 
@@ -163,32 +163,31 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Năm ra mắt";
             // 
-            // cmbNamRaMat
-            // 
-            this.cmbNamRaMat.FormattingEnabled = true;
-            this.cmbNamRaMat.Location = new System.Drawing.Point(327, 849);
-            this.cmbNamRaMat.Name = "cmbNamRaMat";
-            this.cmbNamRaMat.Size = new System.Drawing.Size(294, 39);
-            this.cmbNamRaMat.TabIndex = 4;
-            this.cmbNamRaMat.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(1623, 928);
+            this.txtSearch.Location = new System.Drawing.Point(2477, 903);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(609, 38);
             this.txtSearch.TabIndex = 6;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(327, 849);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(242, 38);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(3453, 1486);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.cmbNamRaMat);
             this.Controls.Add(this.cmbTheLoai);
             this.Controls.Add(this.btnXemChiTiet);
             this.Controls.Add(this.pbPoster);
@@ -216,12 +215,12 @@
         private System.Windows.Forms.ComboBox cmbTheLoai;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cmbNamRaMat;
         private System.Windows.Forms.ToolStripLabel QLHang;
         private System.Windows.Forms.ToolStripLabel QLDienVien;
         private System.Windows.Forms.ToolStripLabel toolStripLabel6;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

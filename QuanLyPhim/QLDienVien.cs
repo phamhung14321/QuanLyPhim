@@ -25,21 +25,23 @@ namespace QuanLyPhim
         private void LoadActors()
         {
             dgvDienVien.DataSource = actorService.GetAllActors();
-            dgvDienVien.Columns["ActorId"].HeaderText = "ID";       // Thiết lập tiêu đề cột GenreId
-            dgvDienVien.Columns["FullName"].HeaderText = "Tên diễn viên"; // Thiết lập tiêu đề cột GenreName
-            // Ẩn cột GenreId nếu không cần hiển thị
-            dgvDienVien.Columns["ActorId"].Visible = false; // Chỉnh sửa thành false nếu bạn muốn ẩn cột
+            dgvDienVien.Columns["ActorId"].HeaderText = "ID";       
+            dgvDienVien.Columns["FullName"].HeaderText = "Tên diễn viên"; 
+            dgvDienVien.Columns["ActorId"].Visible = false; 
             if (dgvDienVien.Columns.Contains("Movies"))
             {
-                dgvDienVien.Columns["Movies"].Visible = false; // Ẩn cột Movies
+                dgvDienVien.Columns["Movies"].Visible = false; 
             }
+        }
+        private void ClearInputFields()
+        {
+            txtTenDienVien.Clear();
+            dateTimePicker1.Value = DateTime.Now;
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
             var fullName = txtTenDienVien.Text.Trim();
-
-            // Kiểm tra nếu tên diễn viên đã tồn tại
             if (actorService.ActorExists(fullName))
             {
                 MessageBox.Show("Diễn viên đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -53,6 +55,7 @@ namespace QuanLyPhim
             };
             actorService.AddActor(actor);
             LoadActors();
+            ClearInputFields();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -61,8 +64,6 @@ namespace QuanLyPhim
 
             var actor = (Actors)dgvDienVien.CurrentRow.DataBoundItem;
             var fullName = txtTenDienVien.Text.Trim();
-
-            // Kiểm tra nếu tên diễn viên đã tồn tại (trừ tên hiện tại)
             if (actorService.ActorExists(fullName) && fullName != actor.FullName)
             {
                 MessageBox.Show("Diễn viên đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -73,6 +74,7 @@ namespace QuanLyPhim
             actor.BirthDate = dateTimePicker1.Value;
             actorService.UpdateActor(actor);
             LoadActors();
+            ClearInputFields();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -81,6 +83,26 @@ namespace QuanLyPhim
             var actor = (Actors)dgvDienVien.CurrentRow.DataBoundItem;
             actorService.DeleteActor(actor.ActorId);
             LoadActors();
+            ClearInputFields();
+        }
+
+        private void dgvDienVien_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.RowIndex < dgvDienVien.Rows.Count)
+            {
+                var actor = (Actors)dgvDienVien.Rows[e.RowIndex].DataBoundItem;
+
+                txtTenDienVien.Text = actor.FullName;
+
+                if (actor.BirthDate.HasValue)
+                {
+                    dateTimePicker1.Value = actor.BirthDate.Value; 
+                }
+                else
+                {
+                    dateTimePicker1.Value = DateTime.Now; 
+                }
+            }
         }
     }
 }

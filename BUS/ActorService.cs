@@ -19,6 +19,10 @@ namespace BUS
         }
         public void AddActor(Actors actor)
         {
+            if (ActorExists(actor.FullName))
+            {
+                throw new Exception($"Diễn viên '{actor.FullName}' đã tồn tại trong hệ thống!");
+            }
             movieContext.Actors.Add(actor);
             movieContext.SaveChanges();
         }
@@ -26,7 +30,8 @@ namespace BUS
         public void UpdateActor(Actors actor)
         {
             var existingActor = movieContext.Actors.Find(actor.ActorId);
-            if (existingActor == null) throw new Exception("Actor not found");
+            if (existingActor == null) throw new Exception($"Không tìm thấy diễn viên với tên '{actor.FullName}'");
+
 
             existingActor.FullName = actor.FullName;
             existingActor.BirthDate = actor.BirthDate;
@@ -36,7 +41,7 @@ namespace BUS
         public void DeleteActor(int actorId)
         {
             var actor = movieContext.Actors.Find(actorId);
-            if (actor == null) throw new Exception("Actor not found");
+            if (actor == null) throw new Exception("Không tìm thấy diễn viên");
 
             movieContext.Actors.Remove(actor);
             movieContext.SaveChanges();
@@ -47,7 +52,7 @@ namespace BUS
 
             using (var context = new MovieContext())
             {
-                actors = context.Actors.ToList(); // Lấy danh sách diễn viên từ cơ sở dữ liệu
+                actors = context.Actors.ToList();
             }
 
             return actors;

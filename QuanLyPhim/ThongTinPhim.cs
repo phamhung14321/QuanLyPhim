@@ -35,9 +35,6 @@ namespace QuanLyPhim
                 txtHang.ReadOnly = true;
                 txtNamRaMat.ReadOnly = true;
                 txtDienVien.ReadOnly = true;
-
-
-                // Hiển thị ảnh nếu có
                 if (!string.IsNullOrEmpty(movie.ImagePath))
                 {
                     pictureBox1.Image = Image.FromFile(movie.ImagePath);
@@ -47,12 +44,10 @@ namespace QuanLyPhim
                 {
                     pictureBox1.Image = null;
                 }
-                txtTheLoai.Text = string.Join(", ", movie.Genres.Select(g => g.GenreName)); // Giả sử GenreName là thuộc tính của Genres
+                txtTheLoai.Text = string.Join(", ", movie.Genres.Select(g => g.GenreName)); 
 
-                // Load thêm thông tin hãng sản xuất
-                txtHang.Text = string.Join(", ", movie.Studios.Select(s => s.StudioName)); // Giả sử StudioName là thuộc tính của Studios
+                txtHang.Text = string.Join(", ", movie.Studios.Select(s => s.StudioName)); 
 
-                // Load năm ra mắt
                 txtNamRaMat.Text = movie.ReleaseYear?.ToString() ?? "Chưa xác định";
                 txtDienVien.Text = string.Join(", ", movie.Actors.Select(g => g.FullName));
             }

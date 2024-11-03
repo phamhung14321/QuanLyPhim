@@ -42,10 +42,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(6, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.Size = new System.Drawing.Size(151, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hãng phim";
             // 
@@ -53,21 +53,21 @@
             // 
             this.groupBox1.Controls.Add(this.txtHang);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(51, 51);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Location = new System.Drawing.Point(102, 99);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(345, 124);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(690, 240);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Thông tin hãng  phim";
             // 
             // txtHang
             // 
-            this.txtHang.Location = new System.Drawing.Point(88, 30);
-            this.txtHang.Margin = new System.Windows.Forms.Padding(2);
+            this.txtHang.Location = new System.Drawing.Point(176, 58);
+            this.txtHang.Margin = new System.Windows.Forms.Padding(4);
             this.txtHang.Name = "txtHang";
-            this.txtHang.Size = new System.Drawing.Size(180, 22);
+            this.txtHang.Size = new System.Drawing.Size(356, 38);
             this.txtHang.TabIndex = 1;
             // 
             // dgvHang
@@ -76,22 +76,23 @@
             this.dgvHang.AllowUserToDeleteRows = false;
             this.dgvHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHang.Location = new System.Drawing.Point(452, 51);
-            this.dgvHang.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvHang.Location = new System.Drawing.Point(904, 99);
+            this.dgvHang.Margin = new System.Windows.Forms.Padding(4);
             this.dgvHang.Name = "dgvHang";
             this.dgvHang.ReadOnly = true;
             this.dgvHang.RowHeadersWidth = 102;
             this.dgvHang.RowTemplate.Height = 40;
-            this.dgvHang.Size = new System.Drawing.Size(380, 204);
+            this.dgvHang.Size = new System.Drawing.Size(760, 395);
             this.dgvHang.TabIndex = 2;
+            this.dgvHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHang_CellClick);
             this.dgvHang.SelectionChanged += new System.EventHandler(this.dgvHang_SelectionChanged);
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(58, 194);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThem.Location = new System.Drawing.Point(116, 376);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(96, 45);
+            this.btnThem.Size = new System.Drawing.Size(192, 87);
             this.btnThem.TabIndex = 3;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -99,10 +100,10 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(181, 194);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSua.Location = new System.Drawing.Point(362, 376);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(96, 45);
+            this.btnSua.Size = new System.Drawing.Size(192, 87);
             this.btnSua.TabIndex = 3;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -110,10 +111,10 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(300, 194);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2);
+            this.btnXoa.Location = new System.Drawing.Point(600, 376);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(96, 45);
+            this.btnXoa.Size = new System.Drawing.Size(192, 87);
             this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -121,15 +122,15 @@
             // 
             // HangPhim
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(948, 341);
+            this.ClientSize = new System.Drawing.Size(1896, 661);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dgvHang);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HangPhim";
             this.Text = "HangPhim";
             this.Load += new System.EventHandler(this.HangPhim_Load);

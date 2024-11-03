@@ -34,6 +34,9 @@
             this.txtTenPhim = new System.Windows.Forms.TextBox();
             this.txtNamRaMat = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtHang = new System.Windows.Forms.TextBox();
+            this.clbHang = new System.Windows.Forms.CheckedListBox();
             this.txtDienVien = new System.Windows.Forms.TextBox();
             this.txtTheLoai = new System.Windows.Forms.TextBox();
             this.txtDaoDien = new System.Windows.Forms.TextBox();
@@ -51,9 +54,6 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.clbHang = new System.Windows.Forms.CheckedListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbPosterPhim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachPhim)).BeginInit();
@@ -92,7 +92,7 @@
             // txtTenPhim
             // 
             this.txtTenPhim.Location = new System.Drawing.Point(272, 105);
-            this.txtTenPhim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenPhim.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenPhim.Name = "txtTenPhim";
             this.txtTenPhim.Size = new System.Drawing.Size(596, 38);
             this.txtTenPhim.TabIndex = 2;
@@ -100,7 +100,7 @@
             // txtNamRaMat
             // 
             this.txtNamRaMat.Location = new System.Drawing.Point(272, 202);
-            this.txtNamRaMat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNamRaMat.Margin = new System.Windows.Forms.Padding(4);
             this.txtNamRaMat.Name = "txtNamRaMat";
             this.txtNamRaMat.Size = new System.Drawing.Size(596, 38);
             this.txtNamRaMat.TabIndex = 2;
@@ -108,7 +108,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtHang);
             this.groupBox1.Controls.Add(this.clbHang);
             this.groupBox1.Controls.Add(this.txtDienVien);
             this.groupBox1.Controls.Add(this.txtTheLoai);
@@ -126,18 +126,43 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtTenPhim);
             this.groupBox1.Location = new System.Drawing.Point(168, 132);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1052, 1354);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Quản lý phim";
+            this.groupBox1.Text = "Thông tin phim";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(56, 1146);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(82, 32);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Hãng";
+            // 
+            // txtHang
+            // 
+            this.txtHang.Location = new System.Drawing.Point(272, 1140);
+            this.txtHang.Name = "txtHang";
+            this.txtHang.Size = new System.Drawing.Size(456, 38);
+            this.txtHang.TabIndex = 12;
+            this.txtHang.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // clbHang
+            // 
+            this.clbHang.FormattingEnabled = true;
+            this.clbHang.Location = new System.Drawing.Point(272, 1184);
+            this.clbHang.Name = "clbHang";
+            this.clbHang.Size = new System.Drawing.Size(456, 39);
+            this.clbHang.TabIndex = 11;
             // 
             // txtDienVien
             // 
             this.txtDienVien.Location = new System.Drawing.Point(272, 916);
-            this.txtDienVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDienVien.Margin = new System.Windows.Forms.Padding(4);
             this.txtDienVien.Name = "txtDienVien";
             this.txtDienVien.Size = new System.Drawing.Size(456, 38);
             this.txtDienVien.TabIndex = 10;
@@ -146,7 +171,7 @@
             // txtTheLoai
             // 
             this.txtTheLoai.Location = new System.Drawing.Point(276, 728);
-            this.txtTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTheLoai.Margin = new System.Windows.Forms.Padding(4);
             this.txtTheLoai.Name = "txtTheLoai";
             this.txtTheLoai.Size = new System.Drawing.Size(456, 38);
             this.txtTheLoai.TabIndex = 10;
@@ -155,7 +180,7 @@
             // txtDaoDien
             // 
             this.txtDaoDien.Location = new System.Drawing.Point(272, 544);
-            this.txtDaoDien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDaoDien.Margin = new System.Windows.Forms.Padding(4);
             this.txtDaoDien.Name = "txtDaoDien";
             this.txtDaoDien.Size = new System.Drawing.Size(456, 38);
             this.txtDaoDien.TabIndex = 10;
@@ -175,7 +200,7 @@
             // 
             this.clbDienVien.FormattingEnabled = true;
             this.clbDienVien.Location = new System.Drawing.Point(272, 959);
-            this.clbDienVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbDienVien.Margin = new System.Windows.Forms.Padding(4);
             this.clbDienVien.Name = "clbDienVien";
             this.clbDienVien.Size = new System.Drawing.Size(456, 74);
             this.clbDienVien.TabIndex = 8;
@@ -184,7 +209,7 @@
             // 
             this.clbDaoDien.FormattingEnabled = true;
             this.clbDaoDien.Location = new System.Drawing.Point(272, 589);
-            this.clbDaoDien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbDaoDien.Margin = new System.Windows.Forms.Padding(4);
             this.clbDaoDien.Name = "clbDaoDien";
             this.clbDaoDien.Size = new System.Drawing.Size(456, 74);
             this.clbDaoDien.TabIndex = 8;
@@ -203,7 +228,7 @@
             // 
             this.clbTheLoai.FormattingEnabled = true;
             this.clbTheLoai.Location = new System.Drawing.Point(276, 771);
-            this.clbTheLoai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbTheLoai.Margin = new System.Windows.Forms.Padding(4);
             this.clbTheLoai.Name = "clbTheLoai";
             this.clbTheLoai.Size = new System.Drawing.Size(456, 74);
             this.clbTheLoai.TabIndex = 4;
@@ -211,7 +236,7 @@
             // rtxtMoTa
             // 
             this.rtxtMoTa.Location = new System.Drawing.Point(272, 287);
-            this.rtxtMoTa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtxtMoTa.Margin = new System.Windows.Forms.Padding(4);
             this.rtxtMoTa.Name = "rtxtMoTa";
             this.rtxtMoTa.Size = new System.Drawing.Size(546, 161);
             this.rtxtMoTa.TabIndex = 3;
@@ -230,7 +255,7 @@
             // pbPosterPhim
             // 
             this.pbPosterPhim.Location = new System.Drawing.Point(1252, 236);
-            this.pbPosterPhim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbPosterPhim.Margin = new System.Windows.Forms.Padding(4);
             this.pbPosterPhim.Name = "pbPosterPhim";
             this.pbPosterPhim.Size = new System.Drawing.Size(380, 473);
             this.pbPosterPhim.TabIndex = 4;
@@ -239,7 +264,7 @@
             // btnChonAnh
             // 
             this.btnChonAnh.Location = new System.Drawing.Point(1342, 732);
-            this.btnChonAnh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnChonAnh.Margin = new System.Windows.Forms.Padding(4);
             this.btnChonAnh.Name = "btnChonAnh";
             this.btnChonAnh.Size = new System.Drawing.Size(172, 64);
             this.btnChonAnh.TabIndex = 5;
@@ -253,7 +278,7 @@
             this.dgvDanhSachPhim.AllowUserToDeleteRows = false;
             this.dgvDanhSachPhim.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSachPhim.Location = new System.Drawing.Point(1664, 236);
-            this.dgvDanhSachPhim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDanhSachPhim.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhSachPhim.Name = "dgvDanhSachPhim";
             this.dgvDanhSachPhim.ReadOnly = true;
             this.dgvDanhSachPhim.RowHeadersWidth = 102;
@@ -265,7 +290,7 @@
             // btnThem
             // 
             this.btnThem.Location = new System.Drawing.Point(185, 1594);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(184, 58);
             this.btnThem.TabIndex = 7;
@@ -276,7 +301,7 @@
             // btnSua
             // 
             this.btnSua.Location = new System.Drawing.Point(440, 1594);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(184, 58);
             this.btnSua.TabIndex = 7;
@@ -287,7 +312,7 @@
             // btnXoa
             // 
             this.btnXoa.Location = new System.Drawing.Point(729, 1594);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(184, 58);
             this.btnXoa.TabIndex = 7;
@@ -298,35 +323,11 @@
             // txtSearch
             // 
             this.txtSearch.Location = new System.Drawing.Point(2708, 928);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(624, 38);
             this.txtSearch.TabIndex = 8;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
-            // 
-            // clbHang
-            // 
-            this.clbHang.FormattingEnabled = true;
-            this.clbHang.Location = new System.Drawing.Point(272, 1184);
-            this.clbHang.Name = "clbHang";
-            this.clbHang.Size = new System.Drawing.Size(456, 39);
-            this.clbHang.TabIndex = 11;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(272, 1140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(456, 38);
-            this.textBox1.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(56, 1146);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 32);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Hãng";
             // 
             // QLPhim
             // 
@@ -341,7 +342,7 @@
             this.Controls.Add(this.btnChonAnh);
             this.Controls.Add(this.pbPosterPhim);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "QLPhim";
             this.Text = "Quản lý phim";
             this.groupBox1.ResumeLayout(false);
@@ -379,7 +380,7 @@
         private System.Windows.Forms.TextBox txtTheLoai;
         private System.Windows.Forms.TextBox txtDaoDien;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtHang;
         private System.Windows.Forms.CheckedListBox clbHang;
     }
 }

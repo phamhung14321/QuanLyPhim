@@ -20,8 +20,11 @@ namespace BUS
 
         public void AddStudio(Studios studio)
         {
-
-           movieContext.Studios.Add(studio);
+            if (StudioExists(studio.StudioName))
+            {
+                throw new Exception($"Studio '{studio.StudioName}' đã tồn tại trong hệ thống!");
+            }
+            movieContext.Studios.Add(studio);
            movieContext.SaveChanges();
 
         }
@@ -29,10 +32,10 @@ namespace BUS
 
     public void UpdateStudio(Studios studio)
         {
-            var existingStudio = movieContext.Studios.Find(studio.StudioId); // Tìm studio theo ID
+            var existingStudio = movieContext.Studios.Find(studio.StudioId); 
             if (existingStudio == null)
             {
-                throw new Exception($"Studio with ID {studio.StudioId} not found"); // In ra ID không tìm thấy
+                throw new Exception($"Không tìm thấy Studio với tên '{studio.StudioName}'");
             }
 
             existingStudio.StudioName = studio.StudioName;
@@ -43,7 +46,7 @@ namespace BUS
         public void DeleteStudio(int StudioID)
         {
             var studio = movieContext.Studios.Find(StudioID);
-            if (studio == null) throw new Exception("Genre not found");
+            if (studio == null) throw new Exception("Không tìm thấy Studio");
 
             movieContext.Studios.Remove(studio);
             movieContext.SaveChanges();
@@ -53,17 +56,6 @@ namespace BUS
             return movieContext.Studios.Any(g => g.StudioName.Equals(StudioName, StringComparison.OrdinalIgnoreCase));
         }
 
-        public List<Studios> GetStudios()
-        {
-            List<Studios> Hang = new List<Studios>();
-
-            using (var context = new MovieContext())
-            {
-                Hang = context.Studios.ToList(); 
-            }
-
-            return Hang;
-        }
         public bool StudioExistsByName(string studioName)
         {
             return movieContext.Studios.Any(s => s.StudioName.Equals(studioName, StringComparison.OrdinalIgnoreCase));

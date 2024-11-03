@@ -34,7 +34,9 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTheLoai = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTheLoai)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvTheLoai
@@ -50,6 +52,7 @@
             this.dgvTheLoai.RowTemplate.Height = 40;
             this.dgvTheLoai.Size = new System.Drawing.Size(685, 786);
             this.dgvTheLoai.TabIndex = 3;
+            this.dgvTheLoai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTheLoai_CellClick);
             // 
             // btnThem
             // 
@@ -84,7 +87,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 212);
+            this.label1.Location = new System.Drawing.Point(33, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 32);
             this.label1.TabIndex = 0;
@@ -92,18 +95,28 @@
             // 
             // txtTheLoai
             // 
-            this.txtTheLoai.Location = new System.Drawing.Point(352, 209);
+            this.txtTheLoai.Location = new System.Drawing.Point(254, 73);
             this.txtTheLoai.Name = "txtTheLoai";
             this.txtTheLoai.Size = new System.Drawing.Size(303, 38);
             this.txtTheLoai.TabIndex = 2;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.txtTheLoai);
+            this.groupBox1.Location = new System.Drawing.Point(144, 121);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(647, 320);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thể loại";
             // 
             // QLTheLoai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1837, 1032);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtTheLoai);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnThem);
@@ -111,8 +124,9 @@
             this.Name = "QLTheLoai";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTheLoai)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -123,5 +137,6 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTheLoai;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

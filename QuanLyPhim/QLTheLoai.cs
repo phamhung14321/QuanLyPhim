@@ -24,13 +24,12 @@ namespace QuanLyPhim
         private void LoadGenres()
         {
             dgvTheLoai.DataSource = genreService.GetAllGenres();
-            dgvTheLoai.Columns["GenreId"].HeaderText = "ID";       // Thiết lập tiêu đề cột GenreId
-            dgvTheLoai.Columns["GenreName"].HeaderText = "Thể Loại"; // Thiết lập tiêu đề cột GenreName
-            // Ẩn cột GenreId nếu không cần hiển thị
-            dgvTheLoai.Columns["GenreId"].Visible = false; // Chỉnh sửa thành false nếu bạn muốn ẩn cột
+            dgvTheLoai.Columns["GenreId"].HeaderText = "ID";      
+            dgvTheLoai.Columns["GenreName"].HeaderText = "Thể Loại"; 
+            dgvTheLoai.Columns["GenreId"].Visible = false; 
             if (dgvTheLoai.Columns.Contains("Movies"))
             {
-                dgvTheLoai.Columns["Movies"].Visible = false; // Ẩn cột Movies
+                dgvTheLoai.Columns["Movies"].Visible = false; 
             }
         }
 
@@ -38,13 +37,11 @@ namespace QuanLyPhim
         private void btnThem_Click(object sender, EventArgs e)
         {
             var genreName = txtTheLoai.Text.Trim();
-
-            // Kiểm tra nếu tên thể loại đã tồn tại
             if (genreService.GenreExists(genreName))
             {
                 MessageBox.Show("Thể loại đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtTheLoai.Clear(); // Xóa trường nhập
-                txtTheLoai.Focus(); // Đặt tiêu điểm vào trường nhập
+                txtTheLoai.Clear(); 
+                txtTheLoai.Focus(); 
                 return;
             }
 
@@ -68,13 +65,11 @@ namespace QuanLyPhim
 
             var genre = (Genres)dgvTheLoai.CurrentRow.DataBoundItem;
             var genreName = txtTheLoai.Text.Trim();
-
-            // Kiểm tra nếu tên thể loại đã tồn tại (trừ tên hiện tại)
             if (genreService.GenreExists(genreName) && genreName != genre.GenreName)
             {
                 MessageBox.Show("Thể loại đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtTheLoai.Clear(); // Xóa trường nhập
-                txtTheLoai.Focus(); // Đặt tiêu điểm vào trường nhập
+                txtTheLoai.Clear(); 
+                txtTheLoai.Focus(); 
                 return;
             }
 
@@ -83,6 +78,14 @@ namespace QuanLyPhim
             LoadGenres();
             txtTheLoai.Clear();
 
+        }
+
+        private void dgvTheLoai_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                txtTheLoai.Text = dgvTheLoai.Rows[e.RowIndex].Cells["GenreName"].Value.ToString();
+            }
         }
     }
 }

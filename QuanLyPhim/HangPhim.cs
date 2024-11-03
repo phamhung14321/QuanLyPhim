@@ -24,28 +24,23 @@ namespace QuanLyPhim
         private void LoadStudios()
         {
             dgvHang.DataSource = studioService.GetAllStudio();
-            dgvHang.Columns["StudioId"].HeaderText = "ID";       // Thiết lập tiêu đề cột GenreId
-            dgvHang.Columns["StudioName"].HeaderText = "Hãng"; // Thiết lập tiêu đề cột GenreName
-            // Ẩn cột GenreId nếu không cần hiển thị
-            dgvHang.Columns["StudioId"].Visible = false; // Chỉnh sửa thành false nếu bạn muốn ẩn cột
+            dgvHang.Columns["StudioId"].HeaderText = "ID";       
+            dgvHang.Columns["StudioName"].HeaderText = "Hãng"; 
+            dgvHang.Columns["StudioId"].Visible = false; 
             if (dgvHang.Columns.Contains("Movies"))
             {
-                dgvHang.Columns["Movies"].Visible = false; // Ẩn cột Movies
+                dgvHang.Columns["Movies"].Visible = false; 
             }
         }
         private void btnThem_Click(object sender, EventArgs e)
         {
             
             var studioName = txtHang.Text.Trim();
-
-            // Kiểm tra nếu tên studio đã được nhập
             if (string.IsNullOrEmpty(studioName))
             {
                 MessageBox.Show("Vui lòng nhập tên studio!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            // Kiểm tra nếu tên studio đã tồn tại
             if (studioService.StudioExists(studioName))
             {
                 MessageBox.Show("Studio đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -56,15 +51,14 @@ namespace QuanLyPhim
 
             try
             {
-                studioService.AddStudio(studio); // Thêm studio vào cơ sở dữ liệu
-                LoadStudios(); // Tải lại danh sách studio sau khi thêm
-                txtHang.Clear(); // Xóa ô nhập
+                studioService.AddStudio(studio); 
+                LoadStudios();
+                txtHang.Clear(); 
                 MessageBox.Show("Studio đã được thêm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Đã xảy ra lỗi khi thêm studio: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                // Kiểm tra thêm thông tin chi tiết nếu có
                 if (ex.InnerException != null)
                 {
                     MessageBox.Show("Chi tiết lỗi: " + ex.InnerException.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -92,7 +86,7 @@ namespace QuanLyPhim
                 return;
             }
 
-            int studioId = (int)selectedRow.Cells["StudioId"].Value; // Lấy ID của studio
+            int studioId = (int)selectedRow.Cells["StudioId"].Value;
             var studioName = txtHang.Text.Trim();
 
             if (string.IsNullOrEmpty(studioName))
@@ -101,7 +95,7 @@ namespace QuanLyPhim
                 return;
             }
 
-            // Kiểm tra nếu tên studio đã tồn tại
+
             if (studioService.StudioExists(studioName) && studioId != (int)selectedRow.Cells["StudioId"].Value)
             {
                 MessageBox.Show("Studio đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -112,9 +106,9 @@ namespace QuanLyPhim
 
             try
             {
-                studioService.UpdateStudio(studio); // Sửa studio
-                LoadStudios(); // Tải lại danh sách studio sau khi sửa
-                txtHang.Clear(); // Xóa ô nhập
+                studioService.UpdateStudio(studio);
+                LoadStudios(); 
+                txtHang.Clear();
                 MessageBox.Show("Studio đã được sửa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -132,18 +126,18 @@ namespace QuanLyPhim
             }
 
             var selectedRow = dgvHang.SelectedRows[0];
-            var studioId = (int)selectedRow.Cells["StudioId"].Value; // Lấy ID của studio được chọn
+            var studioId = (int)selectedRow.Cells["StudioId"].Value;
 
             var result = MessageBox.Show("Bạn có chắc chắn muốn xóa studio này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result != DialogResult.Yes)
             {
-                return; // Nếu không xác nhận thì không thực hiện xóa
+                return;
             }
 
             try
             {
-                studioService.DeleteStudio(studioId); // Xóa studio
-                LoadStudios(); // Tải lại danh sách studio sau khi xóa
+                studioService.DeleteStudio(studioId); 
+                LoadStudios(); 
                 MessageBox.Show("Studio đã được xóa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -157,10 +151,23 @@ namespace QuanLyPhim
             if (dgvHang.SelectedRows.Count > 0)
             {
                 var selectedRow = dgvHang.SelectedRows[0];
-                var studioId = (int)selectedRow.Cells["StudioId"].Value; // Lấy ID của studio
-                var studioName = selectedRow.Cells["StudioName"].Value.ToString(); // Lấy tên studio
+                var studioId = (int)selectedRow.Cells["StudioId"].Value; 
+                var studioName = selectedRow.Cells["StudioName"].Value.ToString(); 
 
-                txtHang.Text = studioName; // Hiển thị tên studio trong ô nhập
+                txtHang.Text = studioName; 
+            }
+        }
+
+        private void dgvHang_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                var selectedRow = dgvHang.Rows[e.RowIndex];
+                if (selectedRow.Cells["StudioName"].Value != null)
+                {
+                    var studioName = selectedRow.Cells["StudioName"].Value.ToString();
+                    txtHang.Text = studioName;
+                }
             }
         }
     }

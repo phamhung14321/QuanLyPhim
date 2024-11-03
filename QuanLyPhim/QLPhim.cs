@@ -36,11 +36,11 @@ namespace QuanLyPhim
         }
         private void LoadGenres()
         {
-            var genres = genreService.GetAllGenres(); // Fetch genres from the service
-            clbTheLoai.Items.Clear(); // Clear previous items if any
+            var genres = genreService.GetAllGenres();
+            clbTheLoai.Items.Clear(); 
             foreach (var genre in genres)
             {
-                clbTheLoai.Items.Add(genre.GenreName); // Add genre names to CheckedListBox
+                clbTheLoai.Items.Add(genre.GenreName); 
             }
         }
         private void LoadStudio()
@@ -54,20 +54,20 @@ namespace QuanLyPhim
         }
         private void LoadDirectors()
         {
-            var directors = directorService.GetAllDirectors(); // Lấy danh sách từ dịch vụ
-            clbDaoDien.Items.Clear(); // Xóa mục cũ nếu có
+            var directors = directorService.GetAllDirectors();
+            clbDaoDien.Items.Clear(); 
             foreach (var director in directors)
             {
-                clbDaoDien.Items.Add(director.FullName); // Thêm tên đạo diễn vào CheckedListBox
+                clbDaoDien.Items.Add(director.FullName); 
             }
         }
         private void LoadActors()
         {
-            var actors = actorService.GetActors(); // Fetch actors from the service
-            clbDienVien.Items.Clear(); // Clear previous items if any
+            var actors = actorService.GetActors(); 
+            clbDienVien.Items.Clear(); 
             foreach (var actor in actors)
             {
-                clbDienVien.Items.Add(actor.FullName); // Add actor names to CheckedListBox
+                clbDienVien.Items.Add(actor.FullName); 
             }
         }
 
@@ -89,12 +89,8 @@ namespace QuanLyPhim
             }).ToList();
 
             dgvDanhSachPhim.DataSource = movieDisplayList;
-
-            // Hide MovieId column
             dgvDanhSachPhim.Columns["MovieId"].Visible = false;
             dgvDanhSachPhim.Columns["ImagePath"].Visible = false;
-
-            // Set Vietnamese headers
             dgvDanhSachPhim.Columns["Title"].HeaderText = "Tên phim";
             dgvDanhSachPhim.Columns["ReleaseYear"].HeaderText = "Năm ra mắt";
             dgvDanhSachPhim.Columns["Description"].HeaderText = "Mô tả";
@@ -142,9 +138,9 @@ namespace QuanLyPhim
                 Title = txtTenPhim.Text,
                 ReleaseYear = string.IsNullOrEmpty(txtNamRaMat.Text) ? (int?)null : int.Parse(txtNamRaMat.Text),
                 Description = rtxtMoTa.Text,
-                Directors = GetDirectorsFromSelectedItems(clbDaoDien), // Get directors
-                Genres = GetGenresFromSelectedItems(clbTheLoai), // Get genres
-                Actors = GetActorsFromSelectedItems(clbDienVien), // Get actors
+                Directors = GetDirectorsFromSelectedItems(clbDaoDien),
+                Genres = GetGenresFromSelectedItems(clbTheLoai), 
+                Actors = GetActorsFromSelectedItems(clbDienVien), 
                 Studios = GetStudioFromSelectedItems(clbHang)
             };
 
@@ -204,6 +200,7 @@ namespace QuanLyPhim
                     int movieId = selectedMovie.MovieId;
                     movieService.DeleteMovie(movieId);
                     LoadMovies();
+                    ResetForm();
                     MessageBox.Show("Xóa phim thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
@@ -211,7 +208,9 @@ namespace QuanLyPhim
                     MessageBox.Show($"Lỗi: {ex.Message}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-        
+            
+
+
     }
 
         private void ResetForm()
@@ -289,7 +288,8 @@ namespace QuanLyPhim
             var allItems = listBox == clbDaoDien ? directorService.GetAllDirectors().Select(d => d.FullName).ToList() :
                           listBox == clbTheLoai ? genreService.GetAllGenres().Select(g => g.GenreName).ToList() :
                           listBox == clbDienVien ? actorService.GetActors().Select(a => a.FullName).ToList() :
-                          studioService.GetAllStudio().Select(s => s.StudioName).ToList();
+                          listBox == clbHang ? studioService.GetAllStudio().Select(s => s.StudioName).ToList():
+                          new List<string>() ;
 
             listBox.Items.Clear();
             listBox.Items.AddRange(allItems
@@ -311,21 +311,19 @@ namespace QuanLyPhim
         {
             FilterCheckedListBox(clbDienVien, txtDienVien.Text);
         }
-
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            FilterCheckedListBox(clbHang, txtHang.Text);
+        }
         private void dgvDanhSachPhim_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             
             if (e.RowIndex >= 0)
             {
-                // Sử dụng dynamic để lấy đối tượng ẩn danh
                 dynamic selectedMovie = dgvDanhSachPhim.CurrentRow.DataBoundItem;
-
-                // Điền thông tin vào các trường nhập liệu
                 txtTenPhim.Text = selectedMovie.Title;
                 txtNamRaMat.Text = selectedMovie.ReleaseYear?.ToString();
                 rtxtMoTa.Text = selectedMovie.Description;
-
-                // Đẩy hình ảnh vào PictureBox
                 if (!string.IsNullOrEmpty(selectedMovie.ImagePath))
                 {
                     pbPosterPhim.Image = Image.FromFile(selectedMovie.ImagePath);
@@ -334,8 +332,6 @@ namespace QuanLyPhim
                 {
                     pbPosterPhim.Image = null;
                 }
-
-                // Đặt các giá trị đã chọn trong CheckedListBox cho đạo diễn, thể loại, diễn viên
                 SetCheckedItems(clbDaoDien, selectedMovie.Directors);
                 SetCheckedItems(clbTheLoai, selectedMovie.Genres);
                 SetCheckedItems(clbDienVien, selectedMovie.Actors);
@@ -359,6 +355,7 @@ namespace QuanLyPhim
                 }
             }
         }
+
 
     }
 }

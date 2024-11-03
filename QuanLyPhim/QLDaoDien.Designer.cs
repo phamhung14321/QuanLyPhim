@@ -54,6 +54,7 @@
             this.dgvThongTinDaoDien.RowTemplate.Height = 40;
             this.dgvThongTinDaoDien.Size = new System.Drawing.Size(1239, 573);
             this.dgvThongTinDaoDien.TabIndex = 0;
+            this.dgvThongTinDaoDien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvThongTinDaoDien_CellClick);
             // 
             // groupBox1
             // 
@@ -66,7 +67,7 @@
             this.groupBox1.Size = new System.Drawing.Size(697, 333);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin đạo diẽn";
+            this.groupBox1.Text = "Thông tin đạo diễn";
             // 
             // dateTimePicker1
             // 

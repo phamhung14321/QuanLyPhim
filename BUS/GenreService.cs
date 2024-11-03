@@ -17,6 +17,10 @@ namespace BUS
 
         public void AddGenre(Genres genre)
         {
+            if (GenreExists(genre.GenreName))
+            {
+                throw new Exception("Tên thể loại đã tồn tại. Vui lòng nhập tên khác.");
+            }
             movieContext.Genres.Add(genre);
             movieContext.SaveChanges();
         }
@@ -24,7 +28,20 @@ namespace BUS
         public void UpdateGenre(Genres genre)
         {
             var existingGenre = movieContext.Genres.Find(genre.GenreId);
-            if (existingGenre == null) throw new Exception("Genre not found");
+            if (existingGenre == null)
+            {
+                throw new Exception("Không tìm thấy thể loại.");
+            }
+
+            bool isDuplicateName = movieContext.Genres
+                .Any(g => g.GenreName.Equals(genre.GenreName, StringComparison.OrdinalIgnoreCase)
+                          && g.GenreId != genre.GenreId);
+
+            if (isDuplicateName)
+            {
+                throw new Exception("Tên thể loại đã tồn tại. Vui lòng nhập tên khác.");
+            }
+
 
             existingGenre.GenreName = genre.GenreName;
             movieContext.SaveChanges();
@@ -43,13 +60,14 @@ namespace BUS
             return movieContext.Genres.Any(g => g.GenreName.Equals(genreName, StringComparison.OrdinalIgnoreCase));
         }
 
+
         public List<Genres> GetGenres()
         {
             List<Genres> genres = new List<Genres>();
 
             using (var context = new MovieContext())
             {
-                genres = context.Genres.ToList(); // Lấy danh sách thể loại từ cơ sở dữ liệu
+                genres = context.Genres.ToList(); 
             }
 
             return genres;

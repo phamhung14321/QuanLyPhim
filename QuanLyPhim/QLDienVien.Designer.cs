@@ -99,6 +99,7 @@
             this.dgvDienVien.RowTemplate.Height = 40;
             this.dgvDienVien.Size = new System.Drawing.Size(900, 663);
             this.dgvDienVien.TabIndex = 1;
+            this.dgvDienVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDienVien_CellClick);
             // 
             // btnThem
             // 
